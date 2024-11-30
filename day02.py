@@ -1,4 +1,4 @@
-with open("day2.txt") as f:
+with open("day02.txt") as f:
     data = [line.lstrip("Game ").strip() for line in f.readlines()]
 
 
